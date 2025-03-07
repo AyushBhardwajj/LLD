@@ -19,10 +19,6 @@ public:
         this->name = name;
         this->position = 1;  // Start from position 1
     }
-
-    void move(int steps) {
-        position += steps;
-    }
 };
 
 // Board Class
